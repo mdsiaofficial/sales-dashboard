@@ -1,0 +1,87 @@
+.Overview{
+  display: flex;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  height: 105px;
+  background-color: #333;
+
+  padding: 0 16px;
+  color: #fff;
+}
+
+.overview-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: auto;
+}
+
+.overview-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffffff;
+}
+
+.overview-date {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffffb5;
+}
+
+.search-section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 8px 20px;
+  border: 1px white solid;
+  border-radius: 20px;
+}
+.search-box{
+  border: none;
+  background: transparent;
+}
+.search-placeholder {
+  position: absolute;
+  left: 56px;
+  top: 13px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffffb5;
+}
+
+.search-bar {
+  width: 300px;
+  height: 48px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.notification-section {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-left: auto;
+}
+
+.notification-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.user-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
