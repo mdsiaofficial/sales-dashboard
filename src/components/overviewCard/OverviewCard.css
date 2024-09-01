@@ -1,0 +1,62 @@
+.over-card{
+  display: flex;
+  align-items: center;
+}
+.statistics-cards {
+  display: flex;
+  justify-content: space-between;
+  
+  gap: 16px;
+  width: 780px;
+}
+
+.card {
+  position: relative;
+  width: 183px;
+  height: 109px;
+  border-radius: 14px;
+  background-color: #333; /* Assuming a dark background based on the screenshot */
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 16px;
+  color: #fff;
+}
+
+.card-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.card-content {
+  z-index: 1;
+}
+
+.card-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.card-amount {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.card-comparison {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #aaaaaaff;
+}

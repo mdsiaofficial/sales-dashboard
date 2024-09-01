@@ -5,6 +5,10 @@ import circle from '../assets/circle.svg'
 import notificationIcon from '../assets/notificationIcon.svg'
 import searchIcon from '../assets/searchIcon.svg'
 import Profile from '../components/profile/Profile'
+import SalesFigure from '../components/salesFigure/SalesFigure'
+import RecentOrders from '../components/recentOrders/RecentOrders'
+import PopularProduct from '../components/popularProduct/PopularProduct'
+import OverviewCard from '../components/overViewCard/OverViewCard'
 
 const Overview = () => {
   return (
@@ -24,8 +28,12 @@ const Overview = () => {
           <img src={circle} alt="User Icon" className="icon user-icon" />
         </div>
       </div>
-
-      <Profile/>
+      <OverviewCard />
+      <Profile />
+      <SalesFigure />
+      <RecentOrders />
+      <PopularProduct />
+      
     </div>
   )
 }
